@@ -13,9 +13,11 @@ public class NabFresherApplication {
 
         // Task 1
         SolutionTaskOne solutionTaskOne = new SolutionTaskOne();
+        System.out.println("Task 1");
         System.out.println(solutionTaskOne.solution(5));
         System.out.println(solutionTaskOne.solution(10));
         System.out.println(solutionTaskOne.solution(30));
+        System.out.println("---------------------");
 
         // Task 2
         SolutionTaskTwo solutionTaskTwo = new SolutionTaskTwo();
