@@ -21,17 +21,15 @@ public class NabFresherApplication {
 
         // Task 2
         SolutionTaskTwo solutionTaskTwo = new SolutionTaskTwo();
+        System.out.println("Task 2");
         System.out.println(solutionTaskTwo.solution(new int[]{1, 2, 4, 7, 8}, 3));
-        System.out.println(solutionTaskTwo.solution(new int[]{1, 2, 4, 7, 8}, 5));
-        System.out.println(solutionTaskTwo.solution(new int[]{1, 2, 4, 7, 8}, 6));
+        System.out.println("---------------------");
 
         // Task 3
+        System.out.println("Task 3");
         SolutionTaskThree solutionTaskThree = new SolutionTaskThree();
-        System.out.println(solutionTaskThree.solution(new int[]{2, 6, 8, 5}));
         System.out.println(solutionTaskThree.solution(new int[]{1, 5, 5, 2, 6}));
-        System.out.println(solutionTaskThree.solution(new int[]{1, 1}));
-
-
+        System.out.println("---------------------");
     }
 
 }
